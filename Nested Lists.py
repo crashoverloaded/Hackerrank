@@ -1,8 +1,10 @@
 #!/usr/bin/python3
 
-n=int(input())
-names=[]
-for i in range(0,n):
-	names.append([input(),int(input())])
 
-names.remove([names[i],names[i][1])
+marksheet = []
+for _ in range(0,int(input())):
+    marksheet.append([input(), float(input())])
+
+second_highest = sorted(list(set([marks for name, marks in marksheet])))[1]
+print('\n'.join([a for a,b in sorted(marksheet) if b == second_highest]))
+
