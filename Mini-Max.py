@@ -23,3 +23,6 @@ if __name__ == '__main__':
 
     miniMaxSum(arr)
 
+
+# Also be Done in One lINe
+#print(str(sum(arr)-max(arr))+" "+str(sum(arr)-min(arr)))
