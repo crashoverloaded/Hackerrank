@@ -1,5 +1,5 @@
-s="aabbbccde"
-m=set(s)
+s="szrmtbttyyaymadobvwniwmozojggfbtswdiocewnqsjrkimhovimghixqryqgzhgbakpncwupcadwvglmupbexijimonxdowqsjinqzytkooacwkchatuwpsoxwvgrrejkukcvyzbkfnzfvrthmtfvmbppkdebswfpspxnelhqnjlgntqzsprmhcnuomrvuyolvzlni"
+m=sorted(set(s))
 d={}
 for i in m:
 	a=len(s)
